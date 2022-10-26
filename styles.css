@@ -1,0 +1,156 @@
+img:not(#tiny):not(.coffee){
+    width:180px;
+    height:auto;
+}
+
+*:not(nav a){
+    background-color: rgb(210, 176, 143);
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+    font-family: 'Roboto Slab', serif;
+    color:rgb(78,49,13);
+}
+
+img{
+    padding: 10px 40px 20px 40px;
+}
+
+
+ul{
+    margin-left:20px;
+}
+
+body{
+    font-size: 18px;
+}
+
+h1{
+    margin-left: 30px;
+}
+
+p{
+    margin: 0px 30px 40px 40px;
+}
+
+#tiny{
+    float:right;
+    width:80px;
+    height:auto;
+}
+
+#block{
+    display: inline-block;
+    margin-top:5px;
+}
+
+#block img{
+    position:relative;
+    width: 50px;
+    height: auto;
+    padding:15px;
+    }
+    
+#block h1{
+    float:left;
+    }
+
+nav{
+    margin:18px 20px 0px 18px;
+}
+
+nav a{
+    margin-right: 20px;
+}
+
+table{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#drink_names{
+    font-size: 23px;
+}
+
+.coffee{
+    height:290px;
+}
+
+a:hover {
+    background-color: rgb(64, 34, 13);
+    color:rgb(210, 176, 143);
+  }
+
+nav a{
+    padding:5px 13px 5px 13px;
+    border-radius: 3px;
+    color:rgb(64, 34, 13);
+  }
+
+h1:not(#toop){
+    margin-top: 29px;
+}
+
+body p{
+    padding-bottom: 10px;
+    width:95%;
+}
+
+body{
+    position:relative;
+    min-height: 98vh;
+    margin:0px;
+}
+
+#footer{
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(64, 34, 13);
+    padding-top: 12px;
+    padding-bottom: 12px;
+} 
+
+footer div{
+    background-color: rgb(64, 34, 13);
+    color:rgb(210, 176, 143);
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px){
+    body p{
+        padding-bottom: 10px;
+        width:90%;
+    }
+    .coffee{
+        height:220px;
+        width:auto;
+        padding:1px;
+    }
+}
+   
+
+    #landing__nowboarding{
+      max-width:500px;
+    }
+    #landing__mainlogo{
+      max-width:500px;
+    }
+
+    @media screen and (max-width:390px){
+        #landing__nowboarding{
+          max-width:500px;
+        }
+        #landing__mainlogo{
+          max-width:500px;
+        }
+    }
