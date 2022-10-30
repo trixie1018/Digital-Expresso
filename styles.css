@@ -1,18 +1,159 @@
-img:not(#tiny):not(.coffee){
+img table{
     width:180px;
     height:auto;
 }
 
+#Home{
+    background-image:url("1st.png");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#Products{
+    background-image:url("2nd.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#Branches{
+    background-image:url("3rd.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#about{
+    background-image:url("3rd.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#french{
+    background-image:url("4th.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#caramel{
+    background-image:url("5th.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#pumpkin{
+    background-image:url("6th.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
 *:not(nav a){
-    background-color: rgb(210, 176, 143);
+    background-color: rgba(255, 255, 255, 0);
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
     font-family: 'Roboto Slab', serif;
     color:rgb(78,49,13);
 }
 
-img{
-    padding: 10px 40px 20px 40px;
+#product_text{
+    padding: 50px 10px 30px 170px;
+    width:32%;
 }
+
+#product_text h2{
+    padding-left: 60px;
+    font-size: 35px;
+    text-align: center;
+}
+
+#product_text p{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+#outline{
+    display:inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#address h2{
+    padding-left: 80px;
+    padding-bottom: 5px;
+}
+
+#address{
+    width:200%;
+    margin-top: 25px;
+    padding-left: 43px;
+    padding-right: 0px;
+    font-size: 19px;
+}
+
+#address li{
+    padding-bottom: 6px;
+}
+
+#coffeehouse img{
+    width:450px;
+    padding: 10px 150px 10px 0px;
+}
+
+#box{
+    display:inline-flex;
+}
+
+#story{
+    width:85%;
+    margin-top: 40px;
+}
+
+#barista img{
+    width:400px;
+    padding-left: 10px;
+}
+
+
+#total{
+    display: inline-flex;
+    width:90%;
+    height:90%;
+    padding-left: 80px;
+    justify-content:space-around;
+}
+
+#text{
+    text-align:left;
+    margin-right: 120px;
+    width:70%;
+}
+
+#text p{
+    font-size: 20px;
+}
+
+#text button{
+    margin-left: 80px;
+    width:50%;
+    height:13%;
+    font-size: 18px;
+    background-color: rgb(231, 212, 194);
+}
+
+#text h2{
+    font-size: 35px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+#cup{
+    width:90%;
+    height:105%;
+    padding-bottom: 10px;
+}
+
+
+
+
 
 
 ul{
@@ -64,7 +205,7 @@ nav a{
 table{
     display: flex;
     justify-content: space-evenly;
-    text-align: center;
+    text-align:center;
     padding-top: 40px;
 }
 
@@ -76,7 +217,7 @@ table{
     height:290px;
 }
 
-a:hover {
+nav a:hover {
     background-color: rgb(64, 34, 13);
     color:rgb(210, 176, 143);
   }
