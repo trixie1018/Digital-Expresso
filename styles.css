@@ -46,12 +46,12 @@ img table{
     background-repeat: no-repeat;
 }
 
-*:not(nav a){
-    background-color: rgba(255, 255, 255, 0);
-    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-    font-family: 'Roboto Slab', serif;
+*{background-color: rgba(255, 255, 255, 0);
     color:rgb(78,49,13);
+    @import url('http://fonts.cdnfonts.com/css/capitaine');
+    font-family: 'Capitaine', sans-serif;
 }
+
 
 #product_text{
     padding: 50px 10px 30px 170px;
@@ -100,16 +100,19 @@ img table{
 
 #box{
     display:inline-flex;
+    height:100%;
 }
 
 #story{
-    width:85%;
+    width:90%;
     margin-top: 40px;
+    margin-left: 0px;
 }
 
 #barista img{
-    width:400px;
+    width:300px;
     padding-left: 10px;
+    margin: 0px 35px 10px 30px;
 }
 
 
@@ -131,12 +134,18 @@ img table{
     font-size: 20px;
 }
 
+button:hover{
+    box-shadow: 0 0 70px -10px rgb(78,49,13);
+    transform:scale(1.005);
+}
+
 #text button{
     margin-left: 80px;
     width:50%;
     height:13%;
     font-size: 18px;
     background-color: rgb(231, 212, 194);
+    border-radius: 6px;
 }
 
 #text h2{
@@ -181,6 +190,7 @@ p{
 #block{
     display: inline-block;
     margin-top:5px;
+    margin-bottom: 0px;
 }
 
 #block img{
@@ -209,6 +219,12 @@ table{
     padding-top: 40px;
 }
 
+table a:hover{
+    color:rgb(138, 104, 60);
+    font-size: 22px;
+}
+
+
 #drink_names{
     font-size: 23px;
 }
@@ -223,9 +239,10 @@ nav a:hover {
   }
 
 nav a{
-    padding:5px 13px 5px 13px;
+    padding:9px 13px 5px 13px;
     border-radius: 3px;
     color:rgb(64, 34, 13);
+    text-decoration: none;
   }
 
 h1:not(#toop){
