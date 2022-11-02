@@ -107,6 +107,7 @@ img table{
     width:90%;
     margin-top: 40px;
     margin-left: 0px;
+    text-indent: 40px;
 }
 
 #barista img{
@@ -132,6 +133,10 @@ img table{
 
 #text p{
     font-size: 20px;
+}
+
+button{
+    transition: all .5s ease-out; 
 }
 
 button:hover{
@@ -160,9 +165,26 @@ button:hover{
     padding-bottom: 10px;
 }
 
+.grow{
+    animation-name:grow;
+    animation: duration 5s infinite;
+  }
+  @keyframes grow{
+    0%{width:90%;}
+    50%{width: 93px;}
+    100%{width:90%;}
+  }
 
 
 
+.emerge{
+    animation-name:emerge;
+    animation-duration:.8s;
+  }
+  @keyframes emerge{
+    0%{opacity:.1;}
+    100%{opacity:1;}
+  }
 
 
 ul{
